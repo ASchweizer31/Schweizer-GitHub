@@ -1,0 +1,66 @@
+---
+title: "STAT 184 Homework Exercises" 
+subtitle: "DataComputing Chapters 5 & 6"
+author: "Alex Schweizer"
+output: html_notebook
+---
+
+## Assigned Exercises
+* DC Chapter 5 Exercises: 5.1, 5.2
+* DC Chapter 6 Exercises: 6.5, 6.6, 6.7, 6.8
+
+## Front Matter 
+```{r}
+# Cleaning up environment
+rm(list=ls())
+# All Packages Needed in Assignment
+library(mosaicData)
+library(DataComputing)
+library(mosaic)
+```
+
+## Chapter 5 Exercises 
+
+### Problem 5.1
+"Use barGraphHelper() to reconstruct the graph. Start with these commands:" 
+
+```{r}
+barGraphHelper(CPS85)
+```
+"Don't know how to show you that I used the gear icon to manipulate the data into the correct form" 
+
+### Problem 5.2
+"Make this graph from the NCHS data in the DataComputing package." 
+
+```{r}
+densityGraphHelper(NCHS,format="frequency polygon")
+```
+"Don't know how to show you that I used the gear icon to manipulate the data into the correct form" 
+
+## Chapter 6 Exercises 
+
+### Problem 6.5 
+
+"In the figure, what variables define the frame?"
+
+* B.) State and Polling Organization 
+
+### Problem 6.6 
+
+"In the figure, what is the glyph and its graphical attributes?"
+
+* D.) Glyph: Rectangle. Graphical attribute: color and text.
+
+### Problem 6.7 
+
+"In the figure, what sets the order of the categorical variable in the scale for the vertical variable?" 
+
+* D.) NYT poll probability for the Democratic candidate. 
+
+### Problem 6.8 
+
+"In the figure, which of these is a guide for the indicated graphical attribute? (Select all that apply.)" 
+
+* A.) Vertical scale: Name of state.
+* E.) Color: Color Band 
+
